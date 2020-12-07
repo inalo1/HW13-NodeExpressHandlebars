@@ -54,7 +54,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 <!-- 3. Install the Express npm package: `npm install express`. -->
 
-4. Create a server.js file.
+<!-- 4. Create a server.js file. -->
 
 <!-- 5. Install the Handlebars npm package: `npm install express-handlebars`. -->
 
