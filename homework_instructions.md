@@ -60,8 +60,8 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 <!-- 6. Install MySQL npm package: `npm install mysql`. -->
 
-7. Require the following npm packages inside of the server.js file:
-   * express
+<!-- 7. Require the following npm packages inside of the server.js file: -->
+   <!-- * express -->
 
 #### DB Setup
 
