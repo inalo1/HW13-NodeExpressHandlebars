@@ -94,7 +94,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+<!-- 1. Inside your `burger` directory, create a folder named `config`. -->
 
 2. Create a `connection.js` file inside `config` directory.
 
