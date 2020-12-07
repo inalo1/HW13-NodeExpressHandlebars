@@ -141,7 +141,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### View setup
 
-1. Inside your `burger` directory, create a folder named `views`.
+<!-- 1. Inside your `burger` directory, create a folder named `views`.
 
    * Create the `index.handlebars` file inside `views` directory.
 
@@ -149,7 +149,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
      * Create the `main.handlebars` file inside `layouts` directory.
 
-     * Setup the `main.handlebars` file so it's able to be used by Handlebars.
+     * Setup the `main.handlebars` file so it's able to be used by Handlebars. -->
 
      * Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
@@ -157,7 +157,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### Directory structure
 
-All the recommended files and directories from the steps above should look like the following structure:
+<!-- All the recommended files and directories from the steps above should look like the following structure:
 
 ```
 .
@@ -193,7 +193,7 @@ All the recommended files and directories from the steps above should look like 
     ├── index.handlebars
     └── layouts
         └── main.handlebars
-```
+``` -->
 
 ### Reminder: Submission on BCS
 
