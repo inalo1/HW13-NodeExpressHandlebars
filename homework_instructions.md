@@ -116,7 +116,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 #### Model setup
 
-* Inside your `burger` directory, create a folder named `models`.
+<!-- * Inside your `burger` directory, create a folder named `models`. -->
 
   * In `models`, make a `burger.js` file.
 
