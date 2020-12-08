@@ -16,7 +16,7 @@ $(function() {
         function() {
           console.log("changed devour to", newDevour);
           // Reload the page to get the updated list
-          loburgerion.reload();
+          location.reload();
         }
       );
     });
@@ -26,7 +26,7 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#ca").val().trim(),
+        name: $("#burgerName").val().trim(),
         devoured: $("[name=devoured]:checked").val().trim()
       };
   
@@ -38,7 +38,7 @@ $(function() {
         function() {
           console.log("created new burger");
           // Reload the page to get the updated list
-          loburgerion.reload();
+          location.reload();
         }
       );
     });
@@ -53,7 +53,7 @@ $(function() {
         function() {
           console.log("deleted burger", id);
           // Reload the page to get the updated list
-          loburgerion.reload();
+          location.reload();
         }
       );
     });
