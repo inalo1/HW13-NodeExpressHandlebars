@@ -25,9 +25,6 @@ When trying to connect remotely to your Heroku database on an open network such 
 * [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
 
 
-### Submission on BCS
-
-* **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
 
 ## Instructions
 
