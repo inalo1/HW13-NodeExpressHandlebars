@@ -5,7 +5,7 @@ $(function() {
       var newDevour = $(this).data("newdevour");
   
       var newDevourState = {
-        devoured: newDevour
+        devoured: !newDevour
       };
   
       // Send the PUT request.
@@ -24,10 +24,9 @@ $(function() {
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
-  
       var newBurger = {
-        name: $("#burgerName").val().trim(),
-        devoured: $("[name=devoured]:checked").val().trim()
+        burger_name: $("#burgerName").val().trim(),
+        devoured: 0
       };
   
       // Send the POST request.
