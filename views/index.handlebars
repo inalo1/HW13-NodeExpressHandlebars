@@ -1,23 +1,23 @@
 <h1>Eat-Da-Burger!</h1>
 
+
 <h2>Are you ready to eat these?!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devour=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-
-<h2>Devoured Burgers!</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burger-block devour=true}}
     {{/unless}}
+  {{/each}}
+</ul>
+
+<h2>Devoured Burgers!</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/burger-block devour=false}}
+    {{/if}}
   {{/each}}
 </ul>
 
@@ -30,11 +30,5 @@
     <input type="text" id="burgerName" name="burger_name">
     <button type="submit">Cook Burger</button>
   </div>
-
-  {{!-- <div class="form-group">
-    <label for="devour">devour?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Devouring This!<br>
-    <input type="radio" name="devoured" value="0"> Add My Burger!
-  </div> --}}
 
 </form>
